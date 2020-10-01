@@ -1,0 +1,19 @@
+{
+  "name": "keep-staking-aggregator",
+  "version": "1.0.0",
+  "description": "Aggregate KEEP to meet the staking threshold",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle test",
+	"patch": "patch node_modules/@gnosis.pm/safe-contracts/contracts/GnosisSafe.sol GnosisSafe.patch",
+    "build": "truffle compile",
+    "migrate": "truffle migrate"
+  },
+  "author": "corollari",
+  "license": "MIT",
+  "dependencies": {
+    "@gnosis.pm/safe-contracts": "^1.2.0",
+    "@openzeppelin/contracts": "^2.5.0",
+    "truffle": "^5.1.46"
+  }
+}
