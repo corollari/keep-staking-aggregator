@@ -1,7 +1,7 @@
 {
   "name": "keep-staking-aggregator",
   "version": "1.0.0",
-  "description": "Aggregate KEEP to meet the staking threshold",
+  "description": "KEEP aggregator for trustless staking with low amounts",
   "main": "index.js",
   "scripts": {
     "test": "truffle test",
